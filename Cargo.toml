@@ -1,0 +1,15 @@
+[package]
+name = "bevy_kill_my_cache"
+version = "0.1.0"
+edition = "2024"
+authors = ["Jan Hohenheim <jan@hohenheim.ch>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/janhohenheim/bevy_kill_my_cache"
+description = "A plugin that kills your cache, but makes the Bevy scheduler go brrr"
+keywords = ["bevy", "cache", "kill", "my", "cache"]
+categories = ["game-development"]
+
+[dependencies]
+bevy = { version = "0.16.0-rc.1", default-features = false }
+paste = "1.0.15"
+rand = "0.8.5"
