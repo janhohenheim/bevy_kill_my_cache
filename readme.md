@@ -15,6 +15,6 @@ use bevy_kill_my_cache::KillMyCachePlugin;
 
 App::new()
   // rest of your setup code
-  .add_plugins(KillMyCachePlugin)
+  .add_plugins(KillMyCachePlugin);
   // that's it!
 ```
