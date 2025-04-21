@@ -77,7 +77,7 @@ macro_rules! create_500_components {
             create_100_components!($app, [<$a _2>]);
             create_100_components!($app, [<$a _3>]);
             create_100_components!($app, [<$a _4>]);
-            create_100_components!($app, [<$a _4>]);
+            create_100_components!($app, [<$a _5>]);
         }
     };
 }
