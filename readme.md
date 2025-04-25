@@ -18,3 +18,10 @@ App::new()
   .add_plugins(KillMyCachePlugin);
   // that's it!
 ```
+
+## Compatibility
+
+| bevy        | bevy_kill_my_cache |
+|-------------|--------------------|
+| 0.16        | 0.2                |
+| 0.15        | 0.1                |
