@@ -22,9 +22,9 @@ macro_rules! create_component {
             pub struct $a;
 
             #[allow(non_snake_case)]
-            fn [<add_ $a>](t: Trigger<OnAdd, Transform>, mut commands: Commands) {
-                if rand::thread_rng().gen_bool(0.001) {
-                    commands.entity(t.target()).insert($a);
+            fn [<add_ $a>](t: On<Add, Transform>, mut commands: Commands) {
+                if rand::rng().random_bool(0.001) {
+                    commands.entity(t.entity).insert($a);
                 }
             }
 

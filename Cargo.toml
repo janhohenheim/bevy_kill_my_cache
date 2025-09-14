@@ -1,6 +1,6 @@
 [package]
 name = "bevy_kill_my_cache"
-version = "0.2.0"
+version = "0.3.0-rc.0"
 edition = "2024"
 authors = ["Jan Hohenheim <jan@hohenheim.ch>"]
 license = "MIT OR Apache-2.0"
@@ -10,6 +10,6 @@ keywords = ["bevy", "cache", "kill", "my", "cache"]
 categories = ["game-development"]
 
 [dependencies]
-bevy = { version = "0.16.0", default-features = false }
+bevy = { version = "0.17.0-rc", default-features = false }
 paste = "1.0.15"
-rand = "0.8.5"
+rand = "0.9"
